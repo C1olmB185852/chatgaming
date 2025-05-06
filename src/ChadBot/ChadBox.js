@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./ChadBox.css"; // Archivo CSS con los estilos gaming
+import "./ChadBox.css"; 
 
 export default function ChadBox() { 
     const [messages, setMessages] = useState([]); 
@@ -105,7 +105,6 @@ export default function ChadBox() {
                 </div>
             </div>
 
-            {/* Chat container con estilo de HUD */}
             <div className="chat-hud">
                 <div className="hud-top">
                     <span>CHAT LOG</span>
